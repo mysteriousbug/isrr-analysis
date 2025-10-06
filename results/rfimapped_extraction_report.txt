@@ -1,0 +1,66 @@
+======================================================================
+RFI MAPPED DATA EXTRACTION REPORT
+======================================================================
+Generated: 2025-10-06 09:09:29
+
+SUMMARY:
+ • EGIDs extracted: 2887
+ • Variable columns: 248
+ • Total columns in output: 249
+ • Output file: rfimapped_filtered.xlsx
+
+VARIABLE COLUMNS EXTRACTED:
+ 1. Qid
+ 2. EngagementID
+ 3. Marketingbrochures
+ 4. Mergerandacquisitiondata
+ 5. Monitoredregbylocalcountry
+ 6. Nameindependentreport
+ 7. Newsmediareleases
+ 8. Nonidentifiabletype
+ 9. Nostroaccount
+ 10. Nostrosundrysuspenselist
+ 11. Operationslogdata
+ 12. Orgcharts
+ 13. Pamphlets
+ 14. Patchingantivirussch
+ 15. Paymentcardinfo
+ 16. Penetrationtesting
+ 17. Pensionsmanagementinfo
+ 18. Performanceshareawards
+ 19. Performancesuccessionplanning
+ 20. Pinsandpasswords
+ 21. Processoperatingproc
+ 22. Profitotherclientfininf
+ 23. Proprietarycode
+ 24. Quantitativequalititi
+ 25. Relationshiptransactions
+ 26. Reputationalimpact
+ 27. Reseandsurveysresults
+ 28. Revenue
+ 29. Revenueloss
+ 30. Rewardgovernanceinf
+ ... and 218 more variables
+
+SAMPLE DATA (First 5 EGIDs):
+ EGID: EG-127285
+ TRUE variables: 5
+ Sample: ['Noneoftheabove', 'Basicpii', 'Customerdata', 'Basicpii Other', 'Basicpii Personname']
+ EGID: EG-127286
+ TRUE variables: 13
+ Sample: ['Salaryamount', 'Materialenforcement', 'Basicpii', 'Basicpii Beneficialname', 'Basicpii Dateofbirth']
+ EGID: EG-127288
+ TRUE variables: 4
+ Sample: ['Noneoftheabove', 'Basicpii', 'Basicpii Mailingaddress', 'Basicpii Personname']
+ EGID: EG-127290
+ TRUE variables: 19
+ Sample: ['Settlementamount', 'Tradeid', 'Noneoftheabove', 'Basicpii', 'Clientloyaltymembsubscr']
+ EGID: EG-127291
+ TRUE variables: 6
+ Sample: ['Noneoftheabove', 'Basicpii', 'Customerdata', 'Basicpii Dateofbirth', 'Basicpii Other']
+
+NEXT STEPS:
+ 1. Review the generated rfimapped_filtered.xlsx file
+ 2. If satisfied, rename it to rfimapped.xlsx (backup original first)
+ 3. Run the main analysis: python run.py
+======================================================================

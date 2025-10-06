@@ -1,0 +1,17 @@
+======================================================================
+ISRR ANALYSIS SUMMARY REPORT
+======================================================================
+
+Total EGIDs Processed: 2887
+Total Mismatches: 1760
+Match Rate: 39.0%
+
+ISRR Distribution:
+  Minor: 603 (20.9%)
+  Low: 1005 (34.8%)
+  Moderate: 1195 (41.4%)
+  High: 81 (2.8%)
+  Critical: 3 (0.1%)
+
+Interim to Final Changes:
+  Total changes: 2283
