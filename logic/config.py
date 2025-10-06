@@ -19,7 +19,7 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 
 INPUT_FILES = {
     'variables': os.path.join(DATA_DIR, 'variables.xlsx'),
-    'rfimapped': os.path.join(DATA_DIR, 'rfimapped.xlsx'),
+    'rfimapped': os.path.join(DATA_DIR, 'rifmapped.xlsx'),
     'mainrfi': os.path.join(DATA_DIR, 'mainrfi.xlsx'),
     'interimisrr': os.path.join(DATA_DIR, 'interimisrr.xlsx'),
     'finalisrr': os.path.join(DATA_DIR, 'finalisrr.xlsx')
